@@ -3,7 +3,7 @@ import { StyleSheet, Text} from "react-native";
 export default function Footer() {
   return (
     <Text style={estilo.texto} >
-        Wayne Corp - Gotham Enterprises© 
+        Wayne Corp - Gotham LTDA®
     </Text>
   );
 }
@@ -11,7 +11,7 @@ export default function Footer() {
 const estilo = StyleSheet.create({
   texto: {
     fontSize: 12,
-    color: "#64748B",
+    color: "white",
     textAlign: "center",
     marginTop: 32,
     marginBottom: 16,

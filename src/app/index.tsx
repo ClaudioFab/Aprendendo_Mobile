@@ -1,8 +1,9 @@
 //Importação de recursos
-import { Image, StyleSheet, Text, ScrollView } from "react-native";
+import { StyleSheet, Text, ScrollView } from "react-native";
 
 import Header from "@/components/empresa/header";
 import Service from "@/components/empresa/service";
+import SuporteTecnico from "@/components/empresa/suporteTecnico";
 import Footer from "@/components/empresa/footer";
 
 //Main
@@ -13,7 +14,7 @@ export default function HomeScreen() {
       <Text style={estilo.secao}> Nossos serviços</Text>
 
       <Service />
-
+      <SuporteTecnico />
       <Footer />
     </ScrollView>
   );
@@ -22,7 +23,7 @@ export default function HomeScreen() {
 const estilo = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#F1F5F9",
+    backgroundColor: "#454545",
     padding: 20,
   },
   conteudo: {
@@ -31,7 +32,7 @@ const estilo = StyleSheet.create({
   secao: {
     fontSize: 22,
     fontWeight: "bold",
-    color: "#0F172A",
+    color: "white",
     marginTop: 28,
   },
 });

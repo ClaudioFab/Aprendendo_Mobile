@@ -4,7 +4,7 @@ export default function Service() {
   return (
     <View style={estilo.card}>
         <Text style={estilo.titulo}>
-            Gadgets para vigilantes
+            Ferramentas para vigilantes
         </Text>
 
         <Text style={estilo.descricao}>
@@ -15,25 +15,24 @@ export default function Service() {
   );
 }
 
-
 const estilo = StyleSheet.create({
   card: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: "#09090a",
     padding: 20,
     borderRadius: 12,
     marginTop: 16,
     borderWidth: 1,
-    borderColor: '#E2E8F0',
+    borderColor: '#8d8e8f',
   },
   titulo: {
     fontSize: 18,
     fontWeight: 'bold',
-    color: '#0F172A',
+    color: "white",
     marginBottom: 8,
   },
 descricao: {
     fontSize: 15,
-    color: '#475569',
+    color: "#888887",
     lineHeight: 23,
   },
 });
