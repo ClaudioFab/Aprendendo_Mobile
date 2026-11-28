@@ -3,7 +3,6 @@ import { StyleSheet, Text, ScrollView } from "react-native";
 
 import Header from "@/components/empresa/header";
 import Service from "@/components/empresa/service";
-import SuporteTecnico from "@/components/empresa/suporteTecnico";
 import Footer from "@/components/empresa/footer";
 
 //Main
@@ -13,8 +12,34 @@ export default function HomeScreen() {
       <Header />
       <Text style={estilo.secao}> Nossos serviços</Text>
 
-      <Service />
-      <SuporteTecnico />
+      {/*card 1*/}
+      <Service
+        titulo="Desenvolvimento de Sistemas"
+        descricao="Software sob medida, automação e inovação tecnológica."
+        preco={199.9}
+      />
+
+      {/*card 2*/}
+      <Service
+        titulo="Consultoria em Tecnologia"
+        descricao="Diagnóstico tecnológico e soluções estratégicas para negócios."
+        preco={99.9}
+      />
+
+      {/*card 3*/}
+      <Service
+        titulo="Ferramentas para vigilantes"
+        descricao="Criando tecnologia inovadora para empresas e pessoas vestidas de morcego."
+        preco={249.9}
+      />
+
+      {/*card 4*/}
+      <Service
+        titulo="Suporte Técnico"
+        descricao="Atendimento especializado para empresas."
+        preco={399.99}
+      />
+
       <Footer />
     </ScrollView>
   );

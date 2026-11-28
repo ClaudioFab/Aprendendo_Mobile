@@ -2,9 +2,11 @@ import { StyleSheet, Text} from "react-native";
 
 export default function Footer() {
   return (
+    
     <Text style={estilo.texto} >
         Wayne Corp - Gotham LTDA®
     </Text>
+
   );
 }
 
